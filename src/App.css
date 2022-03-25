@@ -1,4 +1,7 @@
-
+.App{
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
