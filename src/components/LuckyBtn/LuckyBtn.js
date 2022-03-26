@@ -1,7 +1,7 @@
 import React from 'react';
 import './LuckyBtn.css'
-const LuckyBtn = ({ chooseOne, luckyItem }) => {
-    console.log({ luckyItem });
+const LuckyBtn = ({ chooseOne, luckyItem, chooseAgain }) => {
+    console.log({ chooseAgain });
     const { name } = luckyItem;
     console.log(name);
     return (
@@ -10,7 +10,7 @@ const LuckyBtn = ({ chooseOne, luckyItem }) => {
                 <button onClick={chooseOne} className='choose-one'>Choose One For Me</button>
             </div>
             <div>
-                <button className='choose-again'>Choose Again</button>
+                <button onClick={chooseAgain} className='choose-again'>Choose Again</button>
 
             </div>
             <p>{name}</p>

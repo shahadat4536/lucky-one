@@ -23,9 +23,9 @@ const Shop = () => {
     }
 
     const chooseOne = (carts) => {
-        console.log('chooseOne1000', carts);
+        // console.log('chooseOne1000', carts);
         var item = carts[Math.floor(Math.random() * carts.length)];
-        console.log(item);
+        // console.log(item);
         const luckyItem = item;
         setLuckyItem(luckyItem);
 
@@ -33,7 +33,12 @@ const Shop = () => {
         // return item;
 
     }
+    const chooseAgain = (carts) => {
+        console.log('chooseAgain', carts);
+        const empty = [];
+        setCarts(empty)
 
+    }
 
     return (
         <div className='shop-container'>
@@ -59,6 +64,7 @@ const Shop = () => {
                     <LuckyBtn
                         chooseOne={() => chooseOne(carts)}
                         luckyItem={luckyItem}
+                        chooseAgain={() => chooseAgain(carts)}
                     >
 
                     </LuckyBtn>
