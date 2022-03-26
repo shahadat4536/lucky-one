@@ -1,6 +1,6 @@
 import React from 'react';
-import './Luckyproduct.css'
-const Luckyproduct = ({ luckyItem }) => {
+import './LuckyProduct.css'
+const LuckyProduct = ({ luckyItem }) => {
     const { img, name } = luckyItem
     return (
         <div className='lucky-product'>
@@ -11,4 +11,4 @@ const Luckyproduct = ({ luckyItem }) => {
     );
 };
 
-export default Luckyproduct;
+export default LuckyProduct;
