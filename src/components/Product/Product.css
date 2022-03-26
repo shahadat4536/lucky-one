@@ -1,10 +1,13 @@
 .product{
-    border: 2px solid black;
+  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    padding: 20px;
 }
 .product-img img{
     height: 280px;
     width: 190px;
-    padding-left: 56px;
+    padding-left: 40px;
 }
 
 .btn-cart{
@@ -15,12 +18,18 @@
   color: #ffffff;
   font-size: 21px;
   background: #4734d9;
-  padding: 10px 20px 10px 20px;
+  padding: 1px 10px 1px 10px;
   text-decoration: none;
+  margin-left: 36px;
+  
+     
  
 }
 .btn-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-right: 20px;
+
 }
 .product-info{
     margin-left: 10px;

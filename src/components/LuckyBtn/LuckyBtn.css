@@ -1,0 +1,32 @@
+.choose-btn{
+    margin: 10px;
+}
+.choose-one{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #3498db;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.choose-one:hover{
+    background: #3cb0fd;
+  text-decoration: none;
+}
+
+.choose-again{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #3498db;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+}
+
+.choose-again:hover{
+    background: #3cb0fd;
+    text-decoration: none;
+}
