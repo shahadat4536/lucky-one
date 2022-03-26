@@ -37,7 +37,7 @@ const Shop = () => {
         console.log('chooseAgain', carts);
         const empty = [];
         setCarts(empty)
-        // setLuckyItem(empty)
+        setLuckyItem(empty)
 
     }
 
