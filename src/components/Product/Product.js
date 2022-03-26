@@ -15,10 +15,12 @@ const Product = ({ product, handleAddToCart }) => {
                 <h3>Price:৳ {price}</h3>
                 <p>Brand: {seller}</p>
             </div>
-            <button onClick={() => handleAddToCart(product)} className='btn-cart'>
-                <p className='btn-text'>Add to Cart</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-            </button>
+            <div className='btn-cart-div'>
+                <button onClick={() => handleAddToCart(product)} className='btn-cart'>
+                    <p className='btn-text'>Add to Cart</p>
+                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                </button>
+            </div>
         </div>
     );
 };

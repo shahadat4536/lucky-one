@@ -10,15 +10,11 @@ const Cart = ({ cart }) => {
         <div className='cart'>
             <img src={img} alt="" />
             <p>{name}</p>
-            <button>
-                {/* <FontAwesomeIcon icon="fa-solid fa-circle-minus" /> */}
-                <FontAwesomeIcon
-                    icon={faCircleMinus}
-                ></FontAwesomeIcon>
-            </button>
+
 
         </div>
     );
 };
 
 export default Cart;
+

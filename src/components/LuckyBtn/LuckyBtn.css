@@ -2,31 +2,49 @@
     margin: 10px;
 }
 .choose-one{
-    border-radius: 28px;
+    border-radius: 8px;
     font-family: Arial;
     color: #ffffff;
     font-size: 15px;
-    background: #3498db;
+    background: #00702f;
     padding: 4px 10px 4px 10px;
     text-decoration: none;
     margin-bottom: 20px;
+    width: 100%;
 }
 .choose-one:hover{
-    background: #3cb0fd;
+    background: #029c02;
   text-decoration: none;
 }
 
+.lucky-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    margin: 20px;
+    padding: 20px;
+    
+}
+.lucky-item img{
+height: 80px;
+width: 60px;
+border: 2px solid whitesmoke;
+}
+
+
 .choose-again{
-    border-radius: 28px;
+    border-radius: 8px;
     font-family: Arial;
     color: #ffffff;
     font-size: 15px;
-    background: #3498db;
+    background: #660000;
     padding: 4px 10px 4px 10px;
     text-decoration: none;
+    width: 100%;
 }
 
 .choose-again:hover{
-    background: #3cb0fd;
+    background: #ec0000;
     text-decoration: none;
 }
